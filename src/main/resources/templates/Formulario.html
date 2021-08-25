@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario BD</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+        <body>
+             <section class="formulario" >
+                <form name="miForm">
+                    <label>FORMULARIO REGISTRO</label>
+                    <BR></BR>
+                    <input type="text" placeholder="Ingrese Aqui su Nombre" class="barra" id="nombre">
+                    <input type="text" placeholder="Ingrese Aqui su Apellido" class="barra" id="nombre">
+                    <input type="text" placeholder="Ingrese Aqui su Identificacion" class="barra" id="id">
+                    <input type="text" placeholder="Ingrese Aqui su Edad" class="barra" id="edad">
+                    <input type="checkbox" class="caja" id="checkbox" name="validacion">
+                    <h3>Acepta Terminos y Condiciones del Formulario</h3>
+                    <input type="submit" value="Registrar" class="boton" name="regis" onclick="terminos();">
+             </form>
+                </section>
+                <div id="info"></div>
+                <script src="funcionalidad.js"></script>
+        </body>
+</html>

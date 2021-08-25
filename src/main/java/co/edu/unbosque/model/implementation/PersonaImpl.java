@@ -4,10 +4,12 @@ import co.edu.unbosque.model.dao.PersonaDAO;
 import co.edu.unbosque.model.persistence.PersonaDTO;
 import co.edu.unbosque.model.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 
+@Service
 public class PersonaImpl implements PersonaService {
 
     @Autowired
